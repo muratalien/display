@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 15px;
+}
+
+header{
+    display: flex;
+    font-size: 30px;
+    margin: 10px 0;
+}
+
+.logo{
+    flex-grow: 1;
+    padding: 25px;
+    color: black;
+    background-color: lightgray;
+}
+
+.navigations {
+    display: flex; 
+    font-size: 20px;
+    width: 100%;
+    margin: 10px 0;
+}
+
+.navigation {
+    padding: 4px;
+    height: 5vh;
+    width: 100%;
+    background-color: lightgray;
+}
+
+.content{
+    font-size: 25px;
+    padding: 70px;
+    height: 30vh;
+    background-color: lightgray;
+}
+
+.mores{
+    gap: 10px;
+    width: 25%;
+    margin: 0px 10px;
+}
+
+.more{
+    font-size: 20px;
+    padding: 25px;
+    margin: 13px 0;
+    height: 13vh;
+    width: 100%;
+    background-color: lightgray;
+}
+
+footer{
+    background-color: lightgray;
+    font-size: 20px;
+    height: 4vh;
+    width: 100%;
+    flex-grow: unset;
+}
+
+.contents{
+    display: flex;
+    flex-grow: 1.5;
+    flex-direction: column;
+    gap: 10px;
+    width: 65%;
+}
+
+.table{
+    display: flex;
+}
